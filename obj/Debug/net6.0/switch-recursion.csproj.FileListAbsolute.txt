@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\bin\Debug\net6.0\switch-recursion.exe
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\bin\Debug\net6.0\switch-recursion.deps.json
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\bin\Debug\net6.0\switch-recursion.runtimeconfig.json
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\bin\Debug\net6.0\switch-recursion.dll
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\bin\Debug\net6.0\switch-recursion.pdb
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\obj\Debug\net6.0\switch-recursion.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\obj\Debug\net6.0\switch-recursion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\obj\Debug\net6.0\switch-recursion.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\obj\Debug\net6.0\switch-recursion.AssemblyInfo.cs
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\obj\Debug\net6.0\switch-recursion.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\obj\Debug\net6.0\switch-recursion.dll
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\obj\Debug\net6.0\refint\switch-recursion.dll
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\obj\Debug\net6.0\switch-recursion.pdb
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\obj\Debug\net6.0\switch-recursion.genruntimeconfig.cache
+C:\Users\DELL\Desktop\code_TRA\switch-recursion\obj\Debug\net6.0\ref\switch-recursion.dll
