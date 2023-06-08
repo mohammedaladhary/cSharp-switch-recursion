@@ -57,7 +57,7 @@ internal class Program
         //System.Console.WriteLine(power(3, 3));
         //Console.WriteLine("-------------------------");
 
-        System.Console.WriteLine(fibonacci(7));
+        //System.Console.WriteLine(fibonacci(8));
 
         //Console.WriteLine("enter a number:");
         //int a = int.Parse(Console.ReadLine());
@@ -92,6 +92,32 @@ internal class Program
         //    else { 
         //    Console.WriteLine("Try Again later"); 
         //}
+
+        Console.WriteLine("enter a character:");
+        char vow = Convert.ToChar(Console.ReadLine());
+
+        switch (vow)
+        {
+            case 'a':
+                Console.WriteLine("The Alphabet is vowel");
+                break;
+            case 'i':
+                Console.WriteLine("The Alphabet is vowel");
+                break;
+            case 'o':
+                Console.WriteLine("The Alphabet is vowel");
+                break;
+            case 'u':
+                Console.WriteLine("The Alphabet is vowel");
+                break;
+            case 'e':
+                Console.WriteLine("The Alphabet is vowel");
+                break;
+            default:
+                Console.WriteLine("The Alphabet is constant");
+                break;
+
+        }
 
     }
 
