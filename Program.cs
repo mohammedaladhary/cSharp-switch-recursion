@@ -11,7 +11,13 @@ internal class Program
         }
         return value;
     }
+    static int sum_of_digit(int digit)
+    {
+        if (digit == 0)
+            return 0;
 
+        return (digit % 10 + sum_of_digit(digit / 10));
+    }
     static int powerRecursion(int num, int pow)
     {
         if (num == 0)
@@ -58,6 +64,10 @@ internal class Program
         //Console.WriteLine("-------------------------");
 
         //System.Console.WriteLine(fibonacci(8));
+
+        Console.WriteLine("enter a number:");
+        int num = int.Parse(Console.ReadLine());
+        System.Console.WriteLine("The result is: "+sum_of_digit(num));
 
         //Console.WriteLine("enter a number:");
         //int a = int.Parse(Console.ReadLine());
@@ -118,6 +128,8 @@ internal class Program
                 break;
 
         }
+
+
 
     }
 
