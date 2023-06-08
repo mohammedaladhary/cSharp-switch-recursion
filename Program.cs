@@ -24,22 +24,40 @@ internal class Program
         }
         return num * powerRecursion(num, pow - 1);
     }
+
+    static int fibonacci(int numFib)
+    {
+        int beforeLastTerm = 0;
+        int LastTerm = 1;
+        int nextTerm = 0;
+
+        for (int i = 2; i <= numFib; i++)
+        {
+            nextTerm = LastTerm + beforeLastTerm;
+            beforeLastTerm = LastTerm;
+            LastTerm = nextTerm;
+        }
+        return nextTerm;
+    }
+
     private static void Main(string[] args)
     {
 
-        Console.WriteLine("enter a number:");
-        int num = int.Parse(Console.ReadLine());
+        //Console.WriteLine("enter a number:");
+        //int num = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("enter a power:");
-        int pow = int.Parse(Console.ReadLine());
-        System.Console.WriteLine("The result is: "+powerRecursion(num,pow));
+        //Console.WriteLine("enter a power:");
+        //int pow = int.Parse(Console.ReadLine());
+        //System.Console.WriteLine("The result is: "+powerRecursion(num,pow));
 
-        System.Console.WriteLine(powerRecursion(1, 2));
-        System.Console.WriteLine(powerRecursion(3, 3));
-        Console.WriteLine("-------------------------");
-        System.Console.WriteLine(power(1, 2));
-        System.Console.WriteLine(power(3, 3));
+        //System.Console.WriteLine(powerRecursion(1, 2));
+        //System.Console.WriteLine(powerRecursion(3, 3));
+        //Console.WriteLine("-------------------------");
+        //System.Console.WriteLine(power(1, 2));
+        //System.Console.WriteLine(power(3, 3));
+        //Console.WriteLine("-------------------------");
 
+        System.Console.WriteLine(fibonacci(7));
 
         //Console.WriteLine("enter a number:");
         //int a = int.Parse(Console.ReadLine());
