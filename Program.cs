@@ -46,6 +46,11 @@ internal class Program
         return nextTerm;
     }
 
+    static int fibonacciSeries(int n)
+    {
+        if (n == 0 || n == 1) return n;
+        return fibonacciSeries(n-1) + fibonacciSeries (n-2);
+    }
     private static void Main(string[] args)
     {
 
